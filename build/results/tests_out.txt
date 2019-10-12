@@ -1,7 +1,7 @@
-Breakpoint 1 at 0x226: file source/main.c, line 97.
+Breakpoint 1 at 0x2f0: file source/main.c, line 131.
 Note: automatically using hardware breakpoints for read-only addresses.
 ======================================================
 Running all tests..."
 
-"PINA 0x00 => PORTC: 0x07, SM_State: Wait"..."PINA 0x03 => PORTC: 0x00, SM_State: Reset"..."dec x 1 => PORTC: 0x06, SM_State: Wait"..."dec x 8 => PORTC: 0x00, SM_State: Wait"..."inc x 1 => PORTC: 0x08, SM_State: Wait"..."inc x 3 => PORTC: 0x09, SM_State: Wait"..."dec x 2 => PORTC: 0x05,  SM_State: Wait, inc x 3 => PORTC: 0x08 SM_State = Wait"...======================================================
+"no input => PORTB: 0x01 Unlocked, PORTC: 1. Wait"..."test when A7 => PORTB: 0x00 Locked, PORTC: 1. Wait"..." test when A7, A2, A1 => PORTB: 0x01 Unlocked , PORTC: 1. Wait"..."test when A7, A2,A0 => PORTB: 0x00 Locked, PORTC: 1. Wait"..."test when A2, A2, A7  => PORTB: 0x00 Locked, PORTC: 1. Wait"..."test when A7, A1 => PORTB: 0x00 Locked, PORTC: 1. Wait"..."test when A7, A0 => PORTB: 0x00 Locked, PORTC: 1. Wait"..."test when A2, A1, A0 => PORTB: 0x01 Unlocked, PORTC: 1. Wait"..."test when A2, A1 => PORTB: 0x01 Unlocked, PORTC: 1. Wait"..."test when A2, A0 => PORTB: 0x01 Unlocked, PORTC: 1. Wait"..."test when A1, A0 => PORTB: 0x00 Locked, PORTC: 1. Wait"...======================================================
 Quitting: Remote doesn't know how to detach
